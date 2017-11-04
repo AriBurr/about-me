@@ -31,25 +31,31 @@
     <div class="grid-container-contact">
 
       <fieldset class="contact-form">
-        <legend>Contact</legend>
+        <legend><h1>Contact</h1></legend>
         <form>
-          <label for="name">
-            <p>Name:</p>
-            <input type="text" name="name" id="name">
-          </label>
-          <label for="email-address">
-            <p>Email Address:</p>
-            <input type="email" name="email-address" id="email-address">
-          </label>
-          <label for="phone-number">
-            <p>Phone Number:</p>
-            <input type="tel" name="phone-number" id="phone-number">
-          </label>
+          <div class="row">
+            <div class="col">
+              <label for="name">
+                <p>Name:</p>
+                <input type="text" name="name" id="name">
+              </label>
+              <label for="email-address">
+                <p>Email Address:</p>
+                <input type="email" name="email-address" id="email-address">
+              </label>
+              <label for="phone-number">
+                <p>Phone Number:</p>
+                <input type="tel" name="phone-number" id="phone-number">
+              </label>
+            </div>
+            <div class="col">
           <label for="message">
             <p>Message:</p>
             <textarea name="message" id="message"></textarea>
           </label>
           <button type="submit" name="submit">Submit</button>
+        </div>
+          </div>
         </form>
       </fieldset>
 
