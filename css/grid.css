@@ -428,8 +428,13 @@ button:hover {
 .personal-info {
  grid-column: 2;
  grid-row: 1;
+ margin-right: 0;
  padding-right: 5%;
  text-align: right;
+}
+
+.personal-info a {
+  color: #EFEFF0;
 }
 
 .previa-animation {
@@ -454,11 +459,12 @@ button:hover {
 /*------CONTACT------*/
 
 footer {
-  height: 160px;
+  height: 155px;
   width: 100%;
   margin: 0;
   padding: 0;
   text-align: right;
+  box-shadow: 0px 500px 0px 500px #000;
   background-color: #F55536;
 }
 
