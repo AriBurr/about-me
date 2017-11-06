@@ -113,7 +113,7 @@ div .color-circle {
 
 .grid-container-about {
   display: grid;
-  grid-template-columns: repeat(6, 200px);
+  grid-template-columns: repeat(5, 200px);
   grid-auto-rows: auto;
   max-width: 100%;
   grid-gap: 1em;
@@ -401,7 +401,7 @@ legend {
 }
 
 input {
-  width: 200px;
+  width: 250px;
   height: 20px;
 }
 
@@ -459,12 +459,11 @@ button:hover {
 /*------CONTACT------*/
 
 footer {
-  height: 155px;
+  height: 100px;
   width: 100%;
   margin: 0;
   padding: 0;
   text-align: right;
-  box-shadow: 0px 500px 0px 500px #000;
   background-color: #F55536;
 }
 
