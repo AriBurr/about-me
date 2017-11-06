@@ -305,7 +305,7 @@ div .color-circle {
   width: 150px;
   height: 150px;
   justify-self: end;
-  background-image: url("../images/record_rotate_var.png");
+  background-image: url("../images/record_rotate.png");
 }
 
 #sprite-music:hover {
@@ -438,7 +438,7 @@ button:hover {
   height: 300px;
   width: 500px;
   align-self: end;
-  background-image: url("../images/previa_rotate-2.png");
+  background-image: url("../images/previa_rotate.png");
 }
 
 .previa-animation:hover {
